@@ -1,21 +1,25 @@
 import moment from "moment";
 
 export const DateDisplay = () => {
-  const fullDate = moment().format("MMMM Do YYYY, h:mm:ss a"); // September 26th 2023, 9:18:27 am
-  const dayName = moment().format("dddd"); // Tuesday
-  const shortDate = moment().format("MMM Do YY"); // Sep 26th 23
-  const escapedYear = moment().format("YYYY [escaped] YYYY"); // 2023 escaped 2023
-  const defaultFormat = moment().format(); // Default ISO format
+  const momentLib = moment();
 
-  // Calendar Time
-  const tenDaysAgo = moment().subtract(10, "days").calendar(); // 09/16/2023
-  const sixDaysAgo = moment().subtract(6, "days").calendar(); // Last Wednesday at 9:21 AM
-  const threeDaysAgo = moment().subtract(3, "days").calendar(); // Last Saturday at 9:21 AM
-  const oneDayAgo = moment().subtract(1, "days").calendar(); // Yesterday at 9:21 AM
-  const today = moment().calendar(); // Today at 9:21 AM
-  const oneDayLater = moment().add(1, "days").calendar(); // Tomorrow at 9:21 AM
-  const threeDaysLater = moment().add(3, "days").calendar(); // Friday at 9:21 AM
-  const tenDaysLater = moment().add(10, "days").calendar();
+  // Formatting Dates
+  const fullDate = momentLib.format("MMMM Do YYYY, h:mm:ss a"); // September 26th 2023, 9:18:27 am
+  const dayName = momentLib.format("dddd"); // Tuesday
+  const shortDate = momentLib.format("MMM Do YY"); // Sep 26th 23
+  const escapedYear = momentLib.format("YYYY [escaped] YYYY"); // 2023 escaped 2023
+  const defaultFormat = momentLib.format(); // Default ISO format
+
+  // Calendar Time - Past Dates
+  const tenDaysAgo = momentLib.subtract(10, "days").calendar(); // 09/16/2023
+  const sixDaysAgo = momentLib.subtract(6, "days").calendar(); // Last Wednesday at 9:21 AM
+  const threeDaysAgo = momentLib.subtract(3, "days").calendar(); // Last Saturday at 9:21 AM
+  const oneDayAgo = momentLib.subtract(1, "days").calendar(); // Yesterday at 9:21 AM
+  // Calendar Time -  Present and Future
+  const today = momentLib.calendar(); // Today at 9:21 AM
+  const oneDayLater = momentLib.add(1, "days").calendar(); // Tomorrow at 9:21 AM
+  const threeDaysLater = momentLib.add(3, "days").calendar(); // Friday at 9:21 AM
+  const tenDaysLater = momentLib.add(10, "days").calendar();
   return (
     <div>
       <p>
