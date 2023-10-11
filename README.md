@@ -1,14 +1,14 @@
  <img src="/src/assets/boiler-plate.svg" alt="Project Banner Image">
 
-# Vite + React Technigo Boilerplate
+# React Vite Third-Party Libraries Boilerplate
 
-Welcome to the `react-vite-boiler-plate`!
+Welcome to the React Vite `Third-Party Libraries Boilerplate`!
 
-This boilerplate is designed to give you a head start in your React projects, with a focus on understanding the structure and components. As a student of Technigo, you'll find this guide helpful in navigating and utilizing the repository.
+This boilerplate is designed to kickstart your React projects, providing a solid foundation with some of the most popular third-party libraries integrated for a smooth development experience.
 
 ## Demo
 
-[You can check out a Demo of this boilerplate here.](https://technigo-react-vite-boiler-plate.netlify.app/)
+[You can check out a Demo of this boilerplate here.](https://technigo-third-partylibs-boiler-plate.netlify.app/)
 
 ## Getting Started
 
@@ -18,27 +18,30 @@ This boilerplate is designed to give you a head start in your React projects, wi
 
 ## Navigating the Repository
 
-### App Component (`src/App.jsx`)
+### 🎨 Styled Components
 
-The `App.jsx` is the main component of the application. Here's a breakdown of its structure:
+Navigate through the `src/styles` directory to find the global styles and theme configurations using [Styled Components](https://styled-components.com/). Styled Components allows you to use actual CSS syntax inside your components, ensuring a seamless styling experience within your React application.
 
-- Reactive Data: Demonstrates the use of React hooks (`useState`) to manage state. For instance, there's a counter and a name changer to showcase how reactive data works in React.
-- Static Data: This data is used to populate the content of the app. It includes headings, descriptions, and examples.
-- Component Rendering: Various components from the `components` folder are rendered here to showcase their usage.
+### 🎥 Lottie Animations
 
-### Components (`src/components/`)
+Explore the `src/animations` directory to find pre-configured [Lottie Animations](https://airbnb.io/lottie/#/). Lottie is a library that parses Adobe After Effects animations exported as json and builds them natively on mobile and on the web!
 
-This folder contains multiple React components. Let's dive into each:
+### 🌐 React-i18next
 
-1.  Logos (`Logos.jsx`): Displays the logos of Vite, React, and Technigo. Each logo is linked to its respective official website.
+The `src/locales` directory contains configurations for [React-i18next](https://react.i18next.com/), a powerful internationalization framework for React / React Native which provides a way to format strings, dates, and numbers according to the user's locale, and translating your application to multiple languages.
 
-2.  StaticComponent (`StaticComponent.jsx`): A simple static component with no reactive data or JS logic. It contains an H4 and a paragraph element.
+### 📅 Moment.js
 
-3.  PropComponent (`PropComponent.jsx`): Demonstrates the use of props in React. It displays a small bio based on the props passed to it. For instance, it can tell if a person likes pineapple pizza or not!
+Utilize [Moment.js](https://momentjs.com/) to parse, validate, manipulate, and display dates and times in JavaScript. Check out the `src/utils` directory for utility functions that might use Moment.js for date manipulations.
 
-4.  PropComponentPropTypes (`PropComponentPropTypes.jsx`): Similar to the `PropComponent`, but with added PropTypes for type checking. It ensures that the component receives the right type of data for its props. If you want to see a PropTypes error, try removing the `name` prop in the `App.jsx` file and check the console.
+## 📁 Folder Structure
 
-5.  ComponentWithCss (`ComponentWithCss/Component.jsx`): This component showcases how to organize styles with components. It has its own CSS file (`style.css`) in the same folder. It also explains why we use `className` in React instead of `class`.
+Here's a high-level overview of the relevant directories in this boilerplate:
+
+- `src/styles`: Global styles and Styled Components configurations.
+- `src/animations`: Lottie animations and related configurations.
+- `src/locales`: Internationalization configurations using React-i18next.
+- `src/utils`: Utility functions, possibly including date/time manipulations using Moment.js.
 
 ---
 
