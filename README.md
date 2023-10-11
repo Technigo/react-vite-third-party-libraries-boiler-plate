@@ -26,8 +26,6 @@ Navigate through the `src/commponents/styledComponents` directory to find compon
 
 Explore the `src/commponents/Lottie` directory to find pre-configured [Lottie Animations](https://airbnb.io/lottie/#/). We have left you 2 examples that you can base the implementation of the `lottie-react` library with simple and advanced use cases for controlling your animations.
 
-Lottie is a library that parses Adobe After Effects animations exported as json and builds them natively on mobile and on the web!
-
 [lottie-react](https://lottiereact.com/) is a great library that allows you to take more control over your animations.
 
 ### 🌐 React-i18next
