@@ -20,7 +20,7 @@ This boilerplate is designed to kickstart your React projects, providing a solid
 
 ### 🎨 Styled Components
 
-Navigate through the `src/styles` directory to find the global styles and theme configurations using [Styled Components](https://styled-components.com/). Styled Components allows you to use actual CSS syntax inside your components, ensuring a seamless styling experience within your React application.
+Navigate through the `src/commponents/styledComponents` directory to find component examples using styled-components library for styles. Styled Components allows you to use actual CSS syntax inside your components, ensuring a seamless styling experience within your React application.
 
 ### 🎥 Lottie Animations
 

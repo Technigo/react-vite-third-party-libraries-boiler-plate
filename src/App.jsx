@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Logos } from "./components/Logos";
 import { LottieComponent } from "./components/Lottie/LottieComponent";
 import { LottieAdvancedComponent } from "./components/Lottie/LottieAdvancedComponent";
