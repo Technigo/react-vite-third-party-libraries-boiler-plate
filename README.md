@@ -20,28 +20,32 @@ This boilerplate is designed to kickstart your React projects, providing a solid
 
 ### 🎨 Styled Components
 
-Navigate through the `src/commponents/styledComponents` directory to find component examples using styled-components library for styles. Styled Components allows you to use actual CSS syntax inside your components, ensuring a seamless styling experience within your React application.
+Navigate through the `src/commponents/styledComponents` directory to find component examples using [styled-components](https://styled-components.com/) library for styles. Styled Components allows you to use actual CSS syntax inside your components, ensuring a seamless styling experience within your React application.
 
 ### 🎥 Lottie Animations
 
-Explore the `src/animations` directory to find pre-configured [Lottie Animations](https://airbnb.io/lottie/#/). Lottie is a library that parses Adobe After Effects animations exported as json and builds them natively on mobile and on the web!
+Explore the `src/commponents/Lottie` directory to find pre-configured [Lottie Animations](https://airbnb.io/lottie/#/). We have left you 2 examples that you can base the implementation of the `lottie-react` library with simple and advanced use cases for controlling your animations.
+
+Lottie is a library that parses Adobe After Effects animations exported as json and builds them natively on mobile and on the web!
+
+[lottie-react](https://lottiereact.com/) is a great library that allows you to take more control over your animations.
 
 ### 🌐 React-i18next
 
-The `src/locales` directory contains configurations for [React-i18next](https://react.i18next.com/), a powerful internationalization framework for React / React Native which provides a way to format strings, dates, and numbers according to the user's locale, and translating your application to multiple languages.
+The `src/commponents/Internationalization` directory contains configurations for [React-i18next](https://react.i18next.com/), a powerful internationalization framework for React / React Native which provides a way to format strings, dates, and numbers according to the user's locale, and translating your application to multiple languages.
+
+You can also find a file under the name `i18n.js` which contains the implementation of an object called `resources` containing the translations used in the app.
 
 ### 📅 Moment.js
 
-Utilize [Moment.js](https://momentjs.com/) to parse, validate, manipulate, and display dates and times in JavaScript. Check out the `src/utils` directory for utility functions that might use Moment.js for date manipulations.
+The `src/commponents/Moment` directory contains configurations to utilize [Moment.js](https://momentjs.com/) to parse, validate, manipulate, and display dates and times in JavaScript. Check out the `src/utils` directory for utility functions that might use Moment.js for date manipulations.
 
 ## 📁 Folder Structure
 
 Here's a high-level overview of the relevant directories in this boilerplate:
 
-- `src/styles`: Global styles and Styled Components configurations.
-- `src/animations`: Lottie animations and related configurations.
-- `src/locales`: Internationalization configurations using React-i18next.
-- `src/utils`: Utility functions, possibly including date/time manipulations using Moment.js.
+- `src/assets/animations`: Lottie animations and related configurations.
+- `src/i18n.js`: Internationalization configurations using React-i18next.
 
 ---
 
